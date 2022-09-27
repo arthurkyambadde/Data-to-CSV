@@ -1,9 +1,11 @@
 package main
 
 import (
-	"csvmodule/createcsv"
+	"csvmodule/readcsv"
 )
 
 func main() {
-	createcsv.CreateCsv()
+	// createcsv.CreateCsv()
+	readcsv.ReadCsv()
+
 }
